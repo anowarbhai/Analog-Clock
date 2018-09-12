@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Analog Clock</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<div class="analog_clock">
+		<svg width="140" height="140">Anowar
+			<circle id="clock_face" cx="70" cy="70" r="65"/>
+			<line id="h_hand" x1="70" y1="70" x2="70" y2="38"/>
+			<line id="m_hand" x1="70" y1="70" x2="70" y2="20"/>
+			<line id="s_hand" x1="70" y1="70" x2="70" y2="12"/>
+			<line id="s_tail" x1="70" y1="70" x2="70" y2="56"/>
+			<text x="63" y="18" >12</text>
+			<text id="name" x="42" y="97" >ANOWAR</text>
+			<text x="96" y="27">1</text>
+			<text x="117" y="47">2</text>
+			<text x="126" y="76">3</text>
+			<text x="115" y="103">4</text>
+			<text x="94" y="125">5</text>
+			<text x="66" y="132">6</text>
+			<text x="38" y="125">7</text>
+			<text x="16" y="104">8</text>
+			<text x="7" y="75">9</text>
+			<text x="14" y="47">10</text>
+			<text x="34" y="26">11</text>
+			<text id="suffix" x="61" y="45">--</text>
+		</svg>
+		<div class="time_text">
+			<b>
+			<span id="hr">00</span>
+			<span>:</span>
+			<span id="min">00</span>
+			<span>:</span>
+			<span id="sec">00</span>
+			</b>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	font-size:14px;
+	width:140px;
+	height:140px;
+}
+
+.analog_clock{
+	width:140px;
+	height:140px;
+	background:green;
+}
+
+svg{
+	background:green;
+}
+
+#clock_face{
+	stroke:black;
+	stroke-width:1px;
+	fill:#FDFDD9;
+}
+
+#name{
+	color:#fff;
+	
+}
+
+#h_hand, #m_hand, #s_hand, #s_tail{
+	stroke:black;
+	stroke-linecap:round;
+}
+
+#h_hand{
+	stroke-width:3px;
+	stroke:red;
+}
+
+#m_hand{
+	stroke-width:2px;
+	stroke:blue;
+}
+
+#s_hand{
+	stroke-width:1px;
+}
+
+.time_text{
+	background:green;
+	text-align:center;
+	color:#fff;
+	display:none;
+}
+#suffix{
+color:pink;
+}
